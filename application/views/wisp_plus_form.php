@@ -11,9 +11,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </head>
 <body>
 
-<div class="container">
-
-  <div class="container">
+<div class="card">
+  <div class="card-body">
     <form class="row g-3">
       <div class="col-md-6">
         <label for="inputEmail4" class="form-label">Email</label>
@@ -59,7 +58,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       </div>
     </form>
   </div>
-
 </div>
 
 <footer class="pt-2 mt-2 fixed-bottom">
