@@ -35,11 +35,11 @@ defined('BASEPATH') or exit ('No direct script access allowed');
             <div class="col-md-6">
               <label for="membertype" class="form-label">Member Type *</label>
               <select class="form-select" id="membertype" aria-label="Default select example">
-                <option value="1">W - Employed</option>
+                <option value="0">W - Employed</option>
                 <option value="1">S - Self Employed</option>
-                <option value="1">V - Voluntary Member</option>
-                <option value="1">N - Non-Working Spouse</option>
-                <option value="1">O - Overseas Filipino Worker</option>
+                <option value="2">V - Voluntary Member</option>
+                <option value="4">N - Non-Working Spouse</option>
+                <option value="5">O - Overseas Filipino Worker</option>
               </select>
             </div>
             <div class="col-md-6">
@@ -106,28 +106,13 @@ defined('BASEPATH') or exit ('No direct script access allowed');
               <label for="wisp_plus_amount" class="form-label">Wisp Plus Amount</label>
               <input type="number" class="form-control" id="wisp_plus_amount">
             </div>
-            <div class="col-md-6">
-              <label for="inputCity" class="form-label">Applicable Month (Start) *</label>
-              <input type="text" class="form-control" id="inputCity">
+            <div class="col-md-12">
+              <label for="wisppChecked" class="form-label">Wisp Plus Only</label>
+              <input class="form-check-input" type="checkbox" value="" id="wisppChecked">
             </div>
-            <div class="col-md-4">
-              <label for="inputState" class="form-label">State</label>
-              <select id="inputState" class="form-select">
-                <option selected>Choose...</option>
-                <option>...</option>
-              </select>
-            </div>
-            <div class="col-md-2">
-              <label for="inputZip" class="form-label">Zip</label>
-              <input type="text" class="form-control" id="inputZip">
-            </div>
-            <div class="col-12">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck">
-                <label class="form-check-label" for="gridCheck">
-                  Check me out
-                </label>
-              </div>
+            <div class="col-md-12">
+              <label for="total_amount" class="form-label">Total Amount</label>
+              <input type="number" class="form-control" id="total_amount" disabled readonly>
             </div>
             <div class="col-12">
               <button type="submit" class="btn btn-primary">Sign in</button>
