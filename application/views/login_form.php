@@ -15,14 +15,14 @@ defined('BASEPATH') or exit ('No direct script access allowed');
   <div class="container-fluid">
     <div class="row justify-content-center">
 
-      <!-- Navigation-->
-      <nav class="navbar navbar-expand-lg mb-4" id="mainNav" style="background-color: #483285;">
-        <div class="container px-4">
-          <a class="navbar-brand" href="#page-top" style="color: #FFCC25;">SSS Wisp Plus Login Form</a>
-        </div>
-      </nav>
+      <div class="container mt-5 mb-5 d-flex justify-content-center">
+        <img src="assets/logo/ussc_logo.png" class="" alt="ussc_logo" style="max-width: 250px;">
+      </div>
 
-      <div class="card bg-light border-dark-subtle" style="max-width: 54rem;">
+      <div class="card bg-light border-dark-subtle" style="max-width: 25rem;">
+        <h5 class="card-header bg-light text-center">
+          Wisp Plus Login
+        </h5>
         <div class="card-body">
           <form class="row g-3">
             <div class="col-md-12">
