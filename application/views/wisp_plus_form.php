@@ -16,9 +16,9 @@ defined('BASEPATH') or exit ('No direct script access allowed');
     <div class="row justify-content-center">
 
       <!-- Navigation-->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4" id="mainNav">
+      <nav class="navbar navbar-expand-lg mb-4" id="mainNav" style="background-color: #483285;">
         <div class="container px-4">
-          <a class="navbar-brand" href="#page-top">SSS Wisp-plus Form</a>
+          <a class="navbar-brand" href="#page-top" style="color: #FFCC25;">SSS Wisp Plus Form</a>
         </div>
       </nav>
 
@@ -114,20 +114,20 @@ defined('BASEPATH') or exit ('No direct script access allowed');
               <label for="total_amount" class="form-label">Total Amount</label>
               <input type="number" class="form-control" id="total_amount" disabled readonly>
             </div>
-            <div class="col-12">
-              <button type="submit" class="btn btn-primary">Sign in</button>
+            <div class="col-md-12 text-center">
+              <button type="submit" class="btn btn-primary" style="width: 150px;">Next</button>
             </div>
           </form>
         </div>
       </div>
 
-      <footer class="pt-2 mt-4">
+      <footer class="pt-2 mt-4" style="background-color: #483285;">
         <ul class="nav justify-content-center border-bottom pb-1 mb-1">
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Privacy Policy</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">NPC Seal of Registration</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Terms & Conditions</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Privacy Policy</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-white">NPC Seal of Registration</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Terms & Conditions</a></li>
         </ul>
-        <p class="text-center text-body-secondary">Copyright &copy; 2024 USSC. All rights reserved.</p>
+        <p class="text-center text-white">Copyright &copy; 2024 USSC. All rights reserved.</p>
       </footer>
 
     </div>
