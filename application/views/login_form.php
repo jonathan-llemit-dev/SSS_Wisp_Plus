@@ -40,7 +40,7 @@ defined('BASEPATH') or exit ('No direct script access allowed');
         </div>
       </div>
 
-      <footer class="pt-2 mt-4" style="background-color: #483285;">
+      <footer class="pt-2 mt-4 fixed-bottom" style="background-color: #483285;">
         <ul class="nav justify-content-center border-bottom pb-1 mb-1">
           <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Privacy Policy</a></li>
           <li class="nav-item"><a href="#" class="nav-link px-2 text-white">NPC Seal of Registration</a></li>
