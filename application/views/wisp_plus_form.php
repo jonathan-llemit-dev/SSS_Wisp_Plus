@@ -44,11 +44,11 @@ defined('BASEPATH') or exit ('No direct script access allowed');
             </div>
             <div class="col-md-6">
               <label for="monthstart" class="form-label">Applicable Month (Start) *</label>
-              <input type="date" class="form-control" id="monthstart">
+              <input type="month" class="form-control" id="monthstart">
             </div>
             <div class="col-md-6">
               <label for="monthend" class="form-label">Applicable Month (End) *</label>
-              <input type="date" class="form-control" id="monthend">
+              <input type="month" class="form-control" id="monthend">
             </div>
             <div class="col-md-6">
               <label for="inputCity" class="form-label">Applicable Month (Start) *</label>
