@@ -29,11 +29,11 @@ defined('BASEPATH') or exit ('No direct script access allowed');
         <div class="card-body">
           <form class="row g-3">
             <div class="col-md-6">
-              <label for="sssnumber" class="form-label">SSS Number*</label>
+              <label for="sssnumber" class="form-label">SSS Number *</label>
               <input type="text" class="form-control" id="sssnumber">
             </div>
             <div class="col-md-6">
-              <label for="membertype" class="form-label">Member Type*</label>
+              <label for="membertype" class="form-label">Member Type *</label>
               <select class="form-select" id="membertype" aria-label="Default select example">
                 <option value="1">W - Employed</option>
                 <option value="1">S - Self Employed</option>
@@ -42,16 +42,16 @@ defined('BASEPATH') or exit ('No direct script access allowed');
                 <option value="1">O - Overseas Filipino Worker</option>
               </select>
             </div>
-            <div class="col-12">
-              <label for="inputAddress" class="form-label">Address</label>
-              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-            </div>
-            <div class="col-12">
-              <label for="inputAddress2" class="form-label">Address 2</label>
-              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            <div class="col-md-6">
+              <label for="monthstart" class="form-label">Applicable Month (Start) *</label>
+              <input type="date" class="form-control" id="monthstart">
             </div>
             <div class="col-md-6">
-              <label for="inputCity" class="form-label">City</label>
+              <label for="monthend" class="form-label">Applicable Month (End) *</label>
+              <input type="date" class="form-control" id="monthend">
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">Applicable Month (Start) *</label>
               <input type="text" class="form-control" id="inputCity">
             </div>
             <div class="col-md-4">
