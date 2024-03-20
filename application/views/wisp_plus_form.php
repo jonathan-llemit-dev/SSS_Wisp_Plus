@@ -29,8 +29,8 @@ defined('BASEPATH') or exit ('No direct script access allowed');
         <div class="card-body">
           <form class="row g-3">
             <div class="col-md-6">
-              <label for="sssnumber" class="form-label">SSS Number *</label>
-              <input type="text" class="form-control" id="sssnumber">
+              <label for="sss_number" class="form-label">SSS Number *</label>
+              <input type="text" class="form-control" id="sss_number">
             </div>
             <div class="col-md-6">
               <label for="membertype" class="form-label">Member Type *</label>
@@ -43,12 +43,68 @@ defined('BASEPATH') or exit ('No direct script access allowed');
               </select>
             </div>
             <div class="col-md-6">
-              <label for="monthstart" class="form-label">Applicable Month (Start) *</label>
-              <input type="month" class="form-control" id="monthstart">
+              <label for="month_start" class="form-label">Applicable Month (Start) *</label>
+              <input type="month" class="form-control" id="month_start">
             </div>
             <div class="col-md-6">
-              <label for="monthend" class="form-label">Applicable Month (End) *</label>
-              <input type="month" class="form-control" id="monthend">
+              <label for="month_end" class="form-label">Applicable Month (End) *</label>
+              <input type="month" class="form-control" id="month_end">
+            </div>
+            <div class="col-md-6">
+              <label for="contribution_amount" class="form-label">Contribution Amount *</label>
+              <select class="form-select" id="contribution_amount" name="contribution_amount"
+                aria-label="Default select example" required>
+                <option value="">Select Premium</option>
+                <option value="4200">4,200</option>
+                <option value="4130">4,130</option>
+                <option value="4060">4,060</option>
+                <option value="3990">3,990</option>
+                <option value="3920">3,920</option>
+                <option value="3850">3,850</option>
+                <option value="3780">3,780</option>
+                <option value="3710">3,710</option>
+                <option value="3640">3,640</option>
+                <option value="3570">3,570</option>
+                <option value="3500">3,500</option>
+                <option value="3430">3,430</option>
+                <option value="3360">3,360</option>
+                <option value="3290">3,290</option>
+                <option value="3220">3,220</option>
+                <option value="3150">3,150</option>
+                <option value="3080">3,080</option>
+                <option value="3010">3,010</option>
+                <option value="2940">2,940</option>
+                <option value="2870">2,870</option>
+                <option value="2800">2,800</option>
+                <option value="2730">2,730</option>
+                <option value="2660">2,660</option>
+                <option value="2590">2,590</option>
+                <option value="2520">2,520</option>
+                <option value="2450">2,450</option>
+                <option value="2380">2,380</option>
+                <option value="2310">2,310</option>
+                <option value="2240">2,240</option>
+                <option value="2170">2,170</option>
+                <option value="2100">2,100</option>
+                <option value="2030">2,030</option>
+                <option value="1960">1,960</option>
+                <option value="1890">1,890</option>
+                <option value="1820">1,820</option>
+                <option value="1750">1,750</option>
+                <option value="1680">1,680</option>
+                <option value="1610">1,610</option>
+                <option value="1540">1,540</option>
+                <option value="1470">1,470</option>
+                <option value="1400">1,400</option>
+                <option value="1330">1,330</option>
+                <option value="1260">1,260</option>
+                <option value="1190">1,190</option>
+                <option value="1120">1,120</option>
+              </select>
+            </div>
+            <div class="col-md-6">
+              <label for="wisp_plus_amount" class="form-label">Wisp Plus Amount</label>
+              <input type="number" class="form-control" id="wisp_plus_amount">
             </div>
             <div class="col-md-6">
               <label for="inputCity" class="form-label">Applicable Month (Start) *</label>
